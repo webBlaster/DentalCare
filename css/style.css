@@ -319,6 +319,29 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+.carousel-caption h3{
+  font-weight:400;
+  font-size:50px;
+}
+
+#booking{
+  font-weight:700;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-caption h3{
+    font-size:20px;
+  }
+  .carousel-caption p{
+    font-size:10px;
+  }
+  fh5co-heading h3{
+    font-size:20px;
+  }
+  #booking{
+    font-size:20px;
+  }
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
